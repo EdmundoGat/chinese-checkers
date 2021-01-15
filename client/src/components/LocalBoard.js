@@ -2,7 +2,7 @@ import {useState, useEffect} from 'react';
 import Tile from './Tile';
 import produce from "immer";
 
-function Board() {
+function LocalBoard() {
 
   const BOARD_SIZE = 25;
 
@@ -68,7 +68,7 @@ function Board() {
   }
 
   useEffect(() => {
-    
+
   },[]);
   
   return (
@@ -118,4 +118,4 @@ function Board() {
   );
 }
 
-export default Board;
+export default LocalBoard;
